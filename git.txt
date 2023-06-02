@@ -1,0 +1,38 @@
+1. git --version :- check version git 
+2.git config --global user.name "Sorabh Gwala"
+3.git config --global user.email "sorabhgwala@gmail.com"
+4.git config --global --edit
+5. mkdir LearnGit
+6. cd LearnGit
+7. git init :- intialize .git for trarcking
+8.ls ,ls -a 
+9. git status:- it demonstrate status of changes in file
+10. git add 'filename'
+11. git commit -m "Message"
+12. git log :- check commit
+13. git checkout ctrl+ins for copy ,shift+ins  for paste
+14. git branch
+15. git branch dev
+16 git checkout -b
+17. git merge 'branchname'
+18. touch .gitignore :-add file name which ignore by git
+
+
+19. or create a new repository on the command line
+echo "# Learngit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GwSachin/Learngit.git
+git push -u origin main
+
+
+
+20.or push an existing repository from the command line
+git remote add origin https://github.com/GwSachin/Learngit.git
+git branch -M main
+git push -u origin main
+
+
+ 
